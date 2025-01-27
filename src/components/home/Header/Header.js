@@ -50,8 +50,9 @@ const Header = () => {
       <nav className="h-full px-4 max-w-container mx-auto relative">
         <Flex className="flex items-center justify-between h-full">
           <Link to="/">
-            <div>
-              <Image className="w-20 object-cover" imgSrc={logo} />
+            <div style={{ fontSize: "40px", fontWeight: "bold" }}>
+              {/* <Image className="w-20 object-cover" imgSrc={logo} /> */}
+              GIT
             </div>
           </Link>
           <div>

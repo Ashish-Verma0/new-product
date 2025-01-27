@@ -90,7 +90,11 @@ const SignUp = () => {
       <div className="w-1/2 hidden lgl:inline-flex h-full text-white">
         <div className="w-[450px] h-full bg-primeColor px-10 flex flex-col gap-6 justify-center">
           <Link to="/">
-            <img src={logoLight} alt="logoImg" className="w-28" />
+            {/* <img src={logoLight} alt="logoImg" className="w-28" /> */}
+            <div style={{ fontSize: "40px", fontWeight: "bold" }}>
+              {/* <Image className="w-20 object-cover" imgSrc={logo} /> */}
+              GIT
+            </div>
           </Link>
           <div className="flex flex-col gap-1 -mt-1">
             <h1 className="font-titleFont text-xl font-medium">
